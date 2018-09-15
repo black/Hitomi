@@ -1,2 +1,2 @@
 # Hitomi
-A hitmoi.la API based comic reader for android
+A [Hitomi.la](https://hitomi.la/) API based comic reader for android
