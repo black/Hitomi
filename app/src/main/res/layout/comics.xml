@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/roundcorner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/comicthumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/roundcorner"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher_foreground"/>
+    <TextView
+        android:id="@+id/comictitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:maxLines="2"
+        android:lines="2"
+        android:text="Comics Name"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.75"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:maxLines="1"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:text="time"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/comicid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.75"
+        android:textSize="12sp"
+        android:text=""/>
+</LinearLayout>
